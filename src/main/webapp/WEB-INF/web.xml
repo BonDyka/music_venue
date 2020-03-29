@@ -1,0 +1,74 @@
+<web-app>
+    <servlet>
+        <servlet-name>SignIn</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.SignInController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignIn</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.SignUpController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserView</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.UsersViewController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserView</servlet-name>
+        <url-pattern>/view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignOut</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.SignOutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignOut</servlet-name>
+        <url-pattern>/signout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditUser</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.EditUserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUser</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowMT</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.MusicTypeController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowMT</servlet-name>
+        <url-pattern>/show_mt</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowRoles</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.GetRolesController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowRoles</servlet-name>
+        <url-pattern>/show_roles</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>ru.job4j.musicvenue.controllers.DeleteController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+</web-app>
