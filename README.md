@@ -5,7 +5,7 @@ This app represent web application for music list of user
 
 #### Used technologies
 * Java Servlet api
-* JPA
+* JDBC
 * Liquibase
 * JQuery
 * Ajax
